@@ -1,0 +1,44 @@
+/*
+Theme Name: Cookbook
+Author: Ivan Mitic
+Version: 1.0
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+}
+
+.current-menu-item a {
+    color: green;
+}
+
+.site-title {
+
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.recipes,
+.single_recipe {
+
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.image-blog {
+    width: 300px;
+}
